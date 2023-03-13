@@ -49,6 +49,9 @@ public class Main {
         System.out.println("Enter the price of the appliance and the quantity");
         buyAppliance appliance = new buyAppliance();
         appliance.applyDiscount();
+        System.out.println("Enter two diferent numbers: ");
+        Calculator operation = new Calculator();
+        operation.plus();
     }
 
 }
