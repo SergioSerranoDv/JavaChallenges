@@ -40,18 +40,25 @@
         */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Enter the salary: ");
-        operator newOperator = new operator();
+        /*operator newOperator = new operator();
         newOperator.taxesToPay();
-        System.out.println("Enter 2 numbers: ");
         theLargestNumber numberLarge =  new theLargestNumber();
         numberLarge.comparetheNumbers();
-        System.out.println("Enter the price of the appliance and the quantity");
         buyAppliance appliance = new buyAppliance();
         appliance.applyDiscount();
         System.out.println("Enter two diferent numbers: ");
         Calculator operation = new Calculator();
         operation.plus();
+         */
+
+        // task 3/21/2023
+       /* Employee employee = new Employee();
+        employee.checkSalary();
+        Student student = new Student();
+        student.checkAge();
+        student.showCredentials();*/
+
+
     }
 
 }
